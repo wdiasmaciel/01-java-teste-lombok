@@ -6,6 +6,13 @@ Instalar a extensão `Lombok Annotations Support for VS Code` para garantir que 
 ![Extensão "Lombok Annotations Support for VS Code" para garantir que as anotações do Lombok sejam reconhecidas.](extensaoLombokVSCode.png)
 
 # Executar os comandos:
+
+```
+sdk list java
+sdk install java 21.0.6-amzn
+sdk default java 21.0.6-amzn
+```
+
 ```
 mvn clean install
 ```
