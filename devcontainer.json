@@ -1,0 +1,13 @@
+{
+    "name": "Java Development",
+    "build": {
+      "dockerfile": "Dockerfile"
+    },
+    "settings": {
+      "java.home": "/usr/lib/jvm/java-21.0.6-amzn"
+    },
+    "extensions": [
+      "vscjava.vscode-java-pack"
+    ],
+    "postCreateCommand": "sdk install java 21.0.6-amzn && sdk default java 21.0.6-amzn"
+  }

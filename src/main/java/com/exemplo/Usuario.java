@@ -17,7 +17,8 @@ public class Usuario {
     private Date idade;
     private String genero;
  
-    public Usuario(String nome, String sobrenome, String email, Date idade, String genero) {
+    public Usuario(Long id, String nome, String sobrenome, String email, Date idade, String genero) {
+        this.id = id;
         this.nome = nome;
         this.sobrenome = sobrenome;
         this.email = email;
